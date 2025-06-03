@@ -1,5 +1,4 @@
 import requests
-
 def get_inspirational_quote():
     try:
         response = requests.get("https://api.quotable.io/random", timeout=5)
