@@ -1,4 +1,4 @@
-from calendar import weekly_calendar_view
+from calendar_view import weekly_calendar_view
 def test_calendar_output():
     sessions = {
         "Mon 10:00 AM": "Completed",
