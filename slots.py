@@ -7,3 +7,4 @@ appointments = {
 
 def get_available_slots():
     return [slot for slot, user in appointments.items() if user is None]
+
